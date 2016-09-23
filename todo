@@ -1,0 +1,17 @@
+
+http://forum.mepiscommunity.org/viewtopic.php?p=391848#p391848
+
+
+if ! . $lib; then
+printf "Error when loading library %s\n" "$lib" >&2
+printf "This is a fatal error\n" >&2
+printf " download it from https://github.com/antiX-Linux/cli-shell-utils " >&2               ###   added for user friendliness
+exit 15
+fi
+
+
+
+
+
+
+
