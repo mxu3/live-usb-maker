@@ -1,3 +1,4 @@
+1. live-usb-maker
 
 http://forum.mepiscommunity.org/viewtopic.php?p=391848#p391848
 
@@ -11,7 +12,9 @@ fi
 
 
 
+2. users need to be told in readme upfront about:
+ - relation to "antix2usb" from mx-tools : is live-usb-maker a replacement of a.2.u. ? an improvement ? or what ?
+ - looks like booting is done differently in anbtix2usb and this live-USB-maker. will the kernel-updater be compatible with both?
 
-
-
+3. which live-maker is preferrable and why: antix2usb or live-usb-maker
 
