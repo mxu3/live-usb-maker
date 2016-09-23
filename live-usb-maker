@@ -68,6 +68,9 @@ usage() {
 cat<<Usage
 Usage: $ME [commands]
 
+Create a LiveUSB for distros both  antiX  and  MX-15
+
+
 Create a live-usb from an iso-file, another live-usb, a live-cd/dvd
 or a running live system.  You will be prompted for information that
 is not supplied in the command line options.
@@ -116,7 +119,7 @@ Options:
   -I --ignore-config    Ignore the configuration file
   -L --label=Name       Label ext partition with Name
   -m --msdos            Use msdos partitioning instead of gpt
-  -p --pretend          Don't run most commands
+  -p --pretend          Do not run most commands
   -q --quiet            Print less
   -R --reset-config     Write a fresh config file with default options
   -s --size=XX          Percent of usb-device to use (default 100)
@@ -129,7 +132,7 @@ Notes:
   - options can be intermingled with commands and parameters
   - config file: $CONFIG_FILE
   - the config file will be sourced if it exists
-  - it will be created if it doesn't exist
+  - it will be created if it does not exist
 Usage
     exit $ret
 }
@@ -1086,6 +1089,7 @@ load_lib() {
         if ! . $lib; then
             printf "Error when loading library %s\n" "$lib" >&2
             printf "This is a fatal error\n" >&2
+            printf " download it from  https://github.com/antiX-Linux/cli-shell-utils " >&2
             exit 15
         fi
         FOUND_LIB=$lib
