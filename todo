@@ -1,6 +1,6 @@
 1. live-usb-maker
 
-http://forum.mepiscommunity.org/viewtopic.php?p=391848#p391848
+http://forum.mepiscommunity.org/viewtopic.php?p=391848#p391848   (patch fully committed here now)
 
 
 if ! . $lib; then
